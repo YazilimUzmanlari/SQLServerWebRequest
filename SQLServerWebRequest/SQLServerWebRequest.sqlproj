@@ -60,6 +60,7 @@
     <Folder Include="Trendyol" />
     <Folder Include="N11" />
     <Folder Include="HepsiBurada" />
+    <Folder Include="SAPWebServices" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Base\sp_GetHttpRequest.sql" />
@@ -87,5 +88,6 @@
     <Build Include="HepsiBurada\sp_GetHBAttributes.sql" />
     <Build Include="HepsiBurada\sp_GetHBProperties.sql" />
     <Build Include="HepsiBurada\sp_GetHBAuthentication.sql" />
+    <Build Include="SAPWebServices\sp_GetSAPEmployee.sql" />
   </ItemGroup>
 </Project>
