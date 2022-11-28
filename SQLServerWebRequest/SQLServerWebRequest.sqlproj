@@ -61,5 +61,7 @@
   <ItemGroup>
     <Build Include="Base\sp_GetHttpRequest.sql" />
     <Build Include="Base\fnBase64Encode.sql" />
+    <Build Include="Base\fnGetNestedCategories.sql" />
+    <Build Include="Base\sp_GetTCMBExchangeRates.sql" />
   </ItemGroup>
 </Project>
