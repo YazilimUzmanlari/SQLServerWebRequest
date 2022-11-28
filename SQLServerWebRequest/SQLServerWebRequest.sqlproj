@@ -59,6 +59,7 @@
     <Folder Include="Base" />
     <Folder Include="Trendyol" />
     <Folder Include="N11" />
+    <Folder Include="HepsiBurada" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Base\sp_GetHttpRequest.sql" />
@@ -79,5 +80,12 @@
     <Build Include="N11\sp_UpdateN11ProductQuantity.sql" />
     <Build Include="N11\sp_GetN11ProductById.sql" />
     <Build Include="N11\sp_GetN11ProductImagesById.sql" />
+    <Build Include="N11\sp_GetN11ProductBySellerCode.sql" />
+    <Build Include="N11\sp_GetN11CategoryAttributeValues.sql" />
+    <Build Include="N11\sp_GetN11Order.sql" />
+    <Build Include="HepsiBurada\sp_GetHBCategories.sql" />
+    <Build Include="HepsiBurada\sp_GetHBAttributes.sql" />
+    <Build Include="HepsiBurada\sp_GetHBProperties.sql" />
+    <Build Include="HepsiBurada\sp_GetHBAuthentication.sql" />
   </ItemGroup>
 </Project>
