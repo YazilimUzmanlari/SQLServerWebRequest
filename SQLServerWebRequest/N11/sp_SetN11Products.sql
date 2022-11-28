@@ -1,4 +1,6 @@
 ﻿CREATE PROCEDURE [dbo].[sp_SetN11Products]
+	@apiKey			nvarchar(max),
+	@apiSecretKey	nvarchar(max),
 	@ItemCode			nvarchar(max), 
 	@Title				nvarchar(max), 
 	@SubTitle			nvarchar(max), 
@@ -13,19 +15,11 @@ as
 begin
 
 
-	Declare @apiKey			nvarchar(max)
-	Declare	@apiSecretKey	nvarchar(max)
 	Declare @saleStartDate	nvarchar(max)
 	Declare @saleEndDate	nvarchar(max)
 	select @saleStartDate = FORMAT (getdate(), 'dd/MM/yyyy')
 	SELECT @saleEndDate = FORMAT (DATEADD(year, 3, getdate()), 'dd/MM/yyyy') 
 
-	select	Top 1
-			@apiKey = ApiKey,
-			@apiSecretKey = ApiSecretKey
-	From	Communications
-	Where	CommunicationType= 6 and
-		Name = 'N11'
 
 	set nocount on;
 	SET TEXTSIZE 2147483647;
