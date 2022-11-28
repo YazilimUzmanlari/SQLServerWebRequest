@@ -58,6 +58,7 @@
     <Folder Include="Properties" />
     <Folder Include="Base" />
     <Folder Include="Trendyol" />
+    <Folder Include="N11" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Base\sp_GetHttpRequest.sql" />
@@ -67,5 +68,16 @@
     <Build Include="Trendyol\sp_GetTrendyolCategories.sql" />
     <Build Include="Trendyol\sp_GetTrendyolCategoryAttributes.sql" />
     <Build Include="Trendyol\sp_GetTrendyolProducts.sql" />
+    <Build Include="Trendyol\sp_GetTrendyolOrders.sql" />
+    <Build Include="N11\sp_GetN11TopCategories.sql" />
+    <Build Include="N11\sp_GetN11SubCategories.sql" />
+    <Build Include="N11\sp_GetN11Attributes.sql" />
+    <Build Include="N11\sp_GetN11Products.sql" />
+    <Build Include="N11\sp_GetN11Orders.sql" />
+    <Build Include="N11\sp_SetN11Products.sql" />
+    <Build Include="N11\sp_UpdateN11ProductBasic.sql" />
+    <Build Include="N11\sp_UpdateN11ProductQuantity.sql" />
+    <Build Include="N11\sp_GetN11ProductById.sql" />
+    <Build Include="N11\sp_GetN11ProductImagesById.sql" />
   </ItemGroup>
 </Project>
