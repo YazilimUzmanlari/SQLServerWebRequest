@@ -57,11 +57,15 @@
   <ItemGroup>
     <Folder Include="Properties" />
     <Folder Include="Base" />
+    <Folder Include="Trendyol" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Base\sp_GetHttpRequest.sql" />
     <Build Include="Base\fnBase64Encode.sql" />
     <Build Include="Base\fnGetNestedCategories.sql" />
     <Build Include="Base\sp_GetTCMBExchangeRates.sql" />
+    <Build Include="Trendyol\sp_GetTrendyolCategories.sql" />
+    <Build Include="Trendyol\sp_GetTrendyolCategoryAttributes.sql" />
+    <Build Include="Trendyol\sp_GetTrendyolProducts.sql" />
   </ItemGroup>
 </Project>
