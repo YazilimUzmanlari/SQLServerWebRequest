@@ -60,5 +60,6 @@
   </ItemGroup>
   <ItemGroup>
     <Build Include="Base\sp_GetHttpRequest.sql" />
+    <Build Include="Base\fnBase64Encode.sql" />
   </ItemGroup>
 </Project>
